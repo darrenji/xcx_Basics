@@ -9,5 +9,6 @@
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
+    <button bindtap='changeMotto'>改变变量值</button>
   </view>
 </view>

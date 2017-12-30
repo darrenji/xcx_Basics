@@ -15,6 +15,11 @@ Page({
       url: '../logs/logs'
     })
   },
+  changeMotto: function(){
+    this.setData({
+      motto: '你好 世界！'
+    });
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({
