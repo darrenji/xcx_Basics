@@ -33,6 +33,9 @@ App({
       }
     })
   },
+  onShow: function(){
+    console.log('小程序进入前台时触发的事件onShow');
+  },
   globalData: {
     userInfo: null
   }
