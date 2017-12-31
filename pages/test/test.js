@@ -1,5 +1,13 @@
+var app = getApp();
+
 Page({
   data:{
-    name: 'darren'
+    name: 'darren',
+    pass: null
+  },
+  onLoad: function(){
+    this.setData({
+      pass: app.globalData.pass
+    });
   }
 })

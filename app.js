@@ -40,6 +40,7 @@ App({
     console.log('小程序进入后台时触发的事件onHide');
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    pass: '123'
   }
 })

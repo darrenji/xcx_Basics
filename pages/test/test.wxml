@@ -1,2 +1,3 @@
 <view>test页</view>
 <view>{{name}}</view>
+<view>password is:{{pass}}</view>
