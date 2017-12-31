@@ -1,3 +1,4 @@
 <view>test页</view>
 <view>{{name}}</view>
 <view>password is:{{pass}}</view>
+<button bindtap='toHome'>跳转到首页</button>

@@ -5,6 +5,12 @@ Page({
     name: 'darren',
     pass: null
   },
+  toHome: function(){
+
+    wx.switchTab({
+      url: '../index/index',
+    })
+  },
   onLoad: function(){
     this.setData({
       pass: app.globalData.pass
