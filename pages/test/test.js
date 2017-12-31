@@ -9,5 +9,8 @@ Page({
     this.setData({
       pass: app.globalData.pass
     });
+  },
+  onShow: function(){
+    console.log("test页的onShow");
   }
 })
