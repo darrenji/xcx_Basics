@@ -14,3 +14,5 @@
     <view>第一个view</view>
     <view>第二个view</view>
 </block>
+
+<text hidden='{{true}}'>这里是一段文本</text>
