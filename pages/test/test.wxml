@@ -22,3 +22,5 @@
 <view>{{"hello " + name}}</view>
 
 <view wx:for='{{arr}}'>项目：{{item}}</view>
+
+<view wx:for='{{[id, 5, 4, 3]}}'>{{item}}</view>
