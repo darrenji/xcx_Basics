@@ -13,6 +13,9 @@ Page({
   toNavi: function(){
     wx.navigateTo({
       url: '../navi/navi',
+      success: function(){
+        console.log('跳转到navi成功')
+      }
     })
   },
   onLoad: function(){
