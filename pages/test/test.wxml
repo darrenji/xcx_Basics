@@ -9,3 +9,8 @@
 <button bindtap='switch'>切换显示或隐藏</button>
 <view wx:if='{{condition}}'>当condition为true时，这里显示</view>
 <view wx:else>否则这里显示</view>
+
+<block wx:if="{{false}}">
+    <view>第一个view</view>
+    <view>第二个view</view>
+</block>
