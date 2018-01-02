@@ -6,9 +6,13 @@ Page({
     pass: null
   },
   toHome: function(){
-
     wx.switchTab({
       url: '../index/index',
+    })
+  },
+  toNavi: function(){
+    wx.navigateTo({
+      url: '../navi/navi',
     })
   },
   onLoad: function(){
