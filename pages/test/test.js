@@ -6,7 +6,8 @@ Page({
     name: 'darren',
     pass: null,
     id: 1,
-    condition: false
+    condition: false,
+    arr: [1, 2, 3, 4, 5]
   },
   toHome: function(){
     wx.switchTab({
