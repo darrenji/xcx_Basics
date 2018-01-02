@@ -24,3 +24,10 @@
 <view wx:for='{{arr}}'>项目：{{item}}</view>
 
 <view wx:for='{{[id, 5, 4, 3]}}'>{{item}}</view>
+
+<template name='x'>
+  <view>{{a}}</view>
+  <view>{{b}}</view>
+  <view>{{name}}</view>
+</template>
+<template is='x' data='{{a:1, b:2, name:name}}'></template>
