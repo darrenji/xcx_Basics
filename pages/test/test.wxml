@@ -16,3 +16,5 @@
 </block>
 
 <view hidden='{{false}}'>这里是一段文本</view>
+
+<view>{{condition ? "true" : "false"}}</view>
