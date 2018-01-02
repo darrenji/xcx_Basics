@@ -4,3 +4,4 @@
 <button bindtap='toHome'>跳转到首页</button>
 <button bindtap='toNavi'>跳转到navi页</button>
 <navigator url='../navi/navi'>使用组件跳转到navie页</navigator>
+<button bindtap='say'>Say Hello</button>

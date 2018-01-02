@@ -1,4 +1,5 @@
 var app = getApp();
+var common = require('../../common/common.js');
 
 Page({
   data:{
@@ -17,6 +18,9 @@ Page({
         console.log('跳转到navi成功')
       }
     })
+  },
+  say: function(){
+    common.sayHello(this.data.name);
   },
   onLoad: function(){
     this.setData({
