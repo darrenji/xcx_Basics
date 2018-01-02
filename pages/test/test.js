@@ -5,7 +5,8 @@ Page({
   data:{
     name: 'darren',
     pass: null,
-    id: 1
+    id: 1,
+    condition: false
   },
   toHome: function(){
     wx.switchTab({
@@ -22,6 +23,11 @@ Page({
   },
   say: function(){
     common.sayHello(this.data.name);
+  },
+  switch: function(){
+    this.setData({
+      condition: !this.data.condition
+    });
   },
   onLoad: function(){
     this.setData({

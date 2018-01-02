@@ -6,3 +6,6 @@
 <navigator url='../navi/navi'>使用组件跳转到navie页</navigator>
 <button bindtap='say'>Say Hello</button>
 <view id='item-{{id}}'>数据绑定</view>
+<button bindtap='switch'>切换显示或隐藏</button>
+<view wx:if='{{condition}}'>当condition为true时，这里显示</view>
+<view wx:else>否则这里显示</view>
