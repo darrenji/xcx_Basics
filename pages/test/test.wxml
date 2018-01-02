@@ -27,4 +27,4 @@
 </template>
 <template is='x' data='{{...obj1, a:11}}'></template>
 
-<view wx:for='{{arr}}' wx:key='{{index}}'>{{index}}：{{item}}</view>
+<view wx:for='{{arr}}' wx:key='{{i}}' wx:for-index='i' wx:for-item='product'>{{i}}：{{product}}</view>
