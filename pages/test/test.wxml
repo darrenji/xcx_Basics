@@ -26,8 +26,6 @@
 <view wx:for='{{[id, 5, 4, 3]}}'>{{item}}</view>
 
 <template name='x'>
-  <view>项目：{{a}}</view>
-  <view>项目：{{b}}</view>
-  <view>{{tempname}}</view>
+  <view>{{name}}</view>
 </template>
-<template is='x' data='{{...obj1, tempname:name}}'></template>
+<template is='x' data='{{name}}'></template>
