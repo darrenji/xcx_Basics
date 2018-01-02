@@ -7,7 +7,11 @@ Page({
     pass: null,
     id: 1,
     condition: false,
-    arr: [1, 2, 3, 4, 5]
+    arr: [1, 2, 3, 4, 5],
+    obj1: {
+      a:1,
+      b:2
+    }
   },
   toHome: function(){
     wx.switchTab({
