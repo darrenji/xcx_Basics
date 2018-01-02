@@ -5,3 +5,4 @@
 <button bindtap='toNavi'>跳转到navi页</button>
 <navigator url='../navi/navi'>使用组件跳转到navie页</navigator>
 <button bindtap='say'>Say Hello</button>
+<view id='item-{{id}}'>数据绑定</view>

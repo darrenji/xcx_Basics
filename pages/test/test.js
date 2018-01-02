@@ -4,7 +4,8 @@ var common = require('../../common/common.js');
 Page({
   data:{
     name: 'darren',
-    pass: null
+    pass: null,
+    id: 1
   },
   toHome: function(){
     wx.switchTab({
