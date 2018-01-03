@@ -3,7 +3,14 @@
   <switch name="switch"></switch>
 
   <view>
+    <view>slider</view>
+    <slider name="slider" show-value></slider>
+  </view>
+
+  <view>
     <button form-type='submit'>Submit</button>
     <button form-type='reset'>Reset</button>
   </view>
+
+
 </form>
