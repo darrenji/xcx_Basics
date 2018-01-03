@@ -8,3 +8,7 @@
     <button bindtap='letGetFocus'>让上面的输入框获得焦点</button>
   </view>
 </view>
+
+<view>
+  <input maxlength='5'/>
+</view>
