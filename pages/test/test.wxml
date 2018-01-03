@@ -1,4 +1,4 @@
 <view id='outer' catchtap='outerTap'>
   outerview
-  <view id='inner' bindtap='innerTap'>innerview</view>
+  <view id='inner' data-src='images/back.jpg' bindtap='innerTap'>innerview</view>
 </view>
