@@ -3,3 +3,9 @@
 .active {
   color: red;
 }
+
+.rpx {
+  width: 400rpx;
+  height: 400rpx;
+  background-color: red;
+}
