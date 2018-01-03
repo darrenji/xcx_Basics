@@ -1,1 +1,3 @@
-<include src="item.wxml"/>
+<wxs src='./../comm.wxs' module='comm' />
+<view>{{comm.msg}}</view>
+<view>{{comm.bar(comm.foo)}}</view>
