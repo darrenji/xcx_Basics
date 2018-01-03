@@ -1,11 +1,7 @@
 /* pages/test/test.wxss */
-
+@import "common.wxss";
 .active {
   color: red;
 }
 
-.rpx {
-  width: 400rpx;
-  height: 400rpx;
-  background-color: red;
-}
+
