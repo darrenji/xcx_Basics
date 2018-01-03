@@ -1,10 +1,4 @@
-
-<view id='outter' bindtap='outerTap'>
-  outter view
-  <view id='middle' bindtap='middleTap'>
-    middle view
-    <view id='inner' catchtouchmove='innerTap'>
-      inner view
-    </view>
-  </view>
+<view id='outer' catchtap='outerTap'>
+  outerview
+  <view id='inner' bindtap='innerTap'>innerview</view>
 </view>

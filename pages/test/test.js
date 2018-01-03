@@ -5,13 +5,12 @@ Page({
   data:{
 
   },
-  innerTap: function(){
+  innerTap: function(event){
+    console.log(event);
     console.log('触发了innerTap事件');
   },
-  middleTap: function(){
-    console.log('触发了outerTap事件');
-  },
-  outerTap: function(){
+  outerTap: function(event){
+    console.log(event);
     console.log('触发了outerTap事件');
   }
 })
