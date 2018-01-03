@@ -1,20 +1,13 @@
 
 Page({
   data: {
-    imgUrls: [
-      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
-    ],
-    inter: 500
+    x: 0,
+    y: 0
   },
-  swiperChange: function(e){
-    console.log(e.detail);  
-  },
-  intervalChange: function(e){
-    var sliderValue = e.detail.value;
+  tap: function (e) {
     this.setData({
-      inter: sliderValue
+      x: 30,
+      y: 30
     });
   }
 })
