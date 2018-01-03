@@ -1,5 +1,5 @@
-<view class='wrap'>
+<scroll-view class='wrap' scroll-y="true">
   <view class='a'>a</view>
   <view class='b'>b</view>
   <view class='c'>c</view>
-</view>
+</scroll-view>
