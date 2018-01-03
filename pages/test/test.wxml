@@ -1,2 +1,1 @@
-<import src="item.wxml"/>
-<template is="item" data="{{name: 'darren'}}"/>
+<include src="item.wxml"/>
