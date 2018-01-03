@@ -1,5 +1,7 @@
-<swiper indicator-dots='true' autoplay='true' interval="2000" duration='2000' current='1' bindchange="swiperChange">
+<swiper indicator-dots='true' autoplay='true' interval="{{inter}}" duration='2000' current='1'>
   <swiper-item wx:for="{{imgUrls}}">
     <image src="{{item}}" width="555" height="250" />
   </swiper-item> 
 </swiper> 
+
+<slider bindchange='intervalChange' show-value min='2000' max='5000'></slider>
