@@ -4,15 +4,13 @@ Page({
    * 页面的初始数据
    */
   data: {
- 
+    focus: false
   },
   
-  formSubmit: function(e){
-    //{switch:false}
-    console.log(e.detail.value);
-  },
-  formReset: function(){
-    console.log('cancel submit form');
+  letGetFocus: function(){
+    this.setData({
+      focus: true
+    });
   },
 
   /**
