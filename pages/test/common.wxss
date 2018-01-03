@@ -1,5 +1,4 @@
 .rpx {
   width: 400rpx;
-  height: 400rpx;
-  background-color: red;
+  height: 200rpx;
 }
