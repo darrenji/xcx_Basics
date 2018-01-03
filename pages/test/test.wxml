@@ -1,9 +1,9 @@
 
-<view id='outter'>
+<view id='outter' bindtap='outerTap'>
   outter view
   <view id='middle' bindtap='middleTap'>
     middle view
-    <view id='inner' bindtap='innerTap'>
+    <view id='inner' catchtap='innerTap'>
       inner view
     </view>
   </view>

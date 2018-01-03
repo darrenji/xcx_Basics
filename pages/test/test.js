@@ -10,6 +10,8 @@ Page({
   },
   middleTap: function(){
     console.log('触发了outerTap事件');
+  },
+  outerTap: function(){
+    console.log('触发了outerTap事件');
   }
-
 })
