@@ -1,0 +1,5 @@
+<view>我是item</view>
+
+<template name="item">
+  <text>my name is {{name}}</text>
+</template>
