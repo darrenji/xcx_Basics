@@ -17,3 +17,7 @@
   <view>输入的值是：{{inputValue}}</view>
   <input bindinput='getInputValue' />
 </view>
+
+<view>
+  <input type='number' password />
+</view>
