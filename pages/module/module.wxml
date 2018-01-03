@@ -1,5 +1,9 @@
-<checkbox-group bindchange="checkboxChange">
-  <label wx:for="{{items}}">
-    <checkbox value='{{item.value}}' checked='{{item.checked}}' />{{item.value}}
-  </label>
-</checkbox-group>
+<form bindsubmit='formSubmit' bindreset='formReset'>
+  <view>switch</view>
+  <switch name="switch"></switch>
+
+  <view>
+    <button form-type='submit'>Submit</button>
+    <button form-type='reset'>Reset</button>
+  </view>
+</form>

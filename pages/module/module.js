@@ -4,14 +4,15 @@ Page({
    * 页面的初始数据
    */
   data: {
-    items: [
-      {name: 'USA', value: '美国'},
-      {name: 'CHN', value: '中国', checked: 'true'},
-      {name: 'BRA', value: '巴西'}
-    ]
+ 
   },
-  checkboxChange: function(e){
+  
+  formSubmit: function(e){
+    //{switch:false}
     console.log(e.detail.value);
+  },
+  formReset: function(){
+    console.log('cancel submit form');
   },
 
   /**
