@@ -1,3 +1,2 @@
-<wxs src='./../comm.wxs' module='comm' />
-<view>{{comm.msg}}</view>
-<view>{{comm.bar(comm.foo)}}</view>
+<wxs src='./../logic.wxs' module='logic' />
+
