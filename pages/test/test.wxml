@@ -3,7 +3,7 @@
   outter view
   <view id='middle' bindtap='middleTap'>
     middle view
-    <view id='inner' catchtap='innerTap'>
+    <view id='inner' catchtouchstart='innerTap'>
       inner view
     </view>
   </view>
