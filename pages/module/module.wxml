@@ -21,6 +21,14 @@
   </view>
 
   <view>
+    <view>checkbox</view>
+    <checkbox-group name="checkbox">
+      <label><checkbox value='checkbox1' />checkbox1</label>
+      <label><checkbox value='checkbox2' />checkbox2</label>
+    </checkbox-group>
+  </view>
+
+  <view>
     <button form-type='submit'>Submit</button>
     <button form-type='reset'>Reset</button>
   </view>
