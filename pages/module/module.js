@@ -1,13 +1,12 @@
 
 Page({
-  data: {
-    x: 0,
-    y: 0
+  onReady() {
+    this.videoCtx = wx.createVideoContext('myVideo')
   },
-  tap: function (e) {
-    this.setData({
-      x: 30,
-      y: 30
-    });
+  play() {
+    this.videoCtx.play()
+  },
+  pause() {
+    this.videoCtx.pause()
   }
 })
