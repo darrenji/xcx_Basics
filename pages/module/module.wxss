@@ -5,7 +5,7 @@
 }
 
 .wrap view{
-  width: 250rpx;
+  width: 750rpx;
   height: 250rpx;
 }
 
