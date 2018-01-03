@@ -1,18 +1,7 @@
-<view class="group">
-  <block wx:for="{{iconSize}}">
-    <icon type="success" size="{{item}}"/>
-  </block>
-</view>
-
-<view class="group">
-  <block wx:for="{{iconType}}">
-    <icon type="{{item}}" size="40"/>
-  </block>
-</view>
-
-
-<view class="group">
-  <block wx:for="{{iconColor}}">
-    <icon type="success" size="40" color="{{item}}"/>
-  </block>
+<view class='btn-area'>
+  <view class='body-view'>
+    <text>{{text}}</text>
+    <button bindtap='add'>Add Line</button>
+    <button bindtap='remove'>Remove Line</button>
+  </view>
 </view>
