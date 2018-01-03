@@ -1,26 +1,10 @@
-var order = ["a","b","c"];
-var index = 0;
+
 Page({
-  data:{
-    v: "a"
-  },
-  scrolltoupper: function(e){
-    console.log(e);
-    console.log('触发了toUpper');
-  },
-  scrolltolower: function(e){
-    console.log('触发了toLower');
-  },
-  scroll: function(e){
-    console.log(e);
-  },
-  tapChange: function(){
-    index++;
-    if(index > order.length-1){
-      index = 0;
-    }
-    this.setData({
-      v:order[index]
-    });
+  data: {
+    imgUrls: [
+      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
+      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
+      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+    ]
   }
 })
