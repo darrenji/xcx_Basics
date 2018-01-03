@@ -1,5 +1,7 @@
-<scroll-view class='wrap' scroll-y="true"  bindscrolltoupper="scrolltoupper" upper-threshold="100" bindscrolltolower="scrolltolower" lower-threshold="100" scroll-top="100" scroll-into-view="b" bindscroll="scroll">
+<scroll-view class='wrap' scroll-y="true"  bindscrolltoupper="scrolltoupper" upper-threshold="100" bindscrolltolower="scrolltolower" lower-threshold="100" scroll-top="100" scroll-into-view="{{v}}" bindscroll="scroll">
   <view id='a' class='a'>a</view>
   <view id='b' class='b'>b</view>
   <view id='c' class='c'>c</view>
 </scroll-view>
+
+<button bindtap='tapChange'>切换</button>
