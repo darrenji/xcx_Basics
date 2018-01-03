@@ -1,5 +1,5 @@
-<scroll-view class='wrap' scroll-y="true" scroll-x="true" bindscrolltoupper="scrolltoupper" upper-threshold="100" bindscrolltolower="scrolltolower" lower-threshold="100" scroll-left="50" scroll-top="100">
-  <view class='a'>a</view>
-  <view class='b'>b</view>
-  <view class='c'>c</view>
+<scroll-view class='wrap' scroll-y="true"  bindscrolltoupper="scrolltoupper" upper-threshold="100" bindscrolltolower="scrolltolower" lower-threshold="100" scroll-top="100" scroll-into-view="b">
+  <view id='a' class='a'>a</view>
+  <view id='b' class='b'>b</view>
+  <view id='c' class='c'>c</view>
 </scroll-view>
