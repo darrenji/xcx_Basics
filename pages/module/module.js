@@ -1,22 +1,18 @@
-var initData = 'this is first line \n this is second line';
-var extraLine = [];
-
 Page({
-  data:{
-    text: initData
+  data: {
+    nodes: [{
+      name: 'div',
+      attrs: {
+        class: 'div_class',
+        style: 'line-height: 60px; color: red;'
+      },
+      children: [{
+        type: 'text',
+        text: 'Hello&nbsp;World!'
+      }]
+    }]
   },
-  add: function(e){
-    extraLine.push('other line');
-    this.setData({
-      text: initData + '\n' + extraLine.join('\n')
-    });
-  },
-  remove: function(){
-    if(extraLine.length>0){
-      extraLine.pop();
-      this.setData({
-        text: initData + '\n' + extraLine.join('\n')
-      });
-    }
+  tap() {
+    console.log('tap')
   }
 })

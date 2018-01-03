@@ -1,7 +1,1 @@
-<view class='btn-area'>
-  <view class='body-view'>
-    <text>{{text}}</text>
-    <button bindtap='add'>Add Line</button>
-    <button bindtap='remove'>Remove Line</button>
-  </view>
-</view>
+<rich-text nodes="{{nodes}}" bindtap="tap"></rich-text>
