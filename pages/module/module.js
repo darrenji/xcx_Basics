@@ -4,12 +4,18 @@ Page({
    * 页面的初始数据
    */
   data: {
-    focus: false
+    focus: false,
+    inputValue: ''
   },
   
   letGetFocus: function(){
     this.setData({
       focus: true
+    });
+  },
+  getInputValue: function(e){
+    this.setData({
+      inputValue: e.detail.value
     });
   },
 

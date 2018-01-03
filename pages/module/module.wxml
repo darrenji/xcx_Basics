@@ -12,3 +12,8 @@
 <view>
   <input maxlength='5'/>
 </view>
+
+<view>
+  <view>输入的值是：{{inputValue}}</view>
+  <input bindinput='getInputValue' />
+</view>
