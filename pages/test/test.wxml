@@ -1,39 +1,10 @@
-<view>test页</view>
-<view>{{name}}</view>
-<view>password is:{{pass}}</view>
-<button bindtap='toHome'>跳转到首页</button>
-<button bindtap='toNavi'>跳转到navi页</button>
-<navigator url='../navi/navi'>使用组件跳转到navie页</navigator>
-<button bindtap='say'>Say Hello</button>
-<view id='item-{{id}}'>数据绑定</view>
-<button bindtap='switch'>切换显示或隐藏</button>
-<view wx:if='{{condition}}'>当condition为true时，这里显示</view>
-<view wx:else>否则这里显示</view>
 
-<block wx:if="{{false}}">
-    <view>第一个view</view>
-    <view>第二个view</view>
-</block>
-
-<view hidden='{{false}}'>这里是一段文本</view>
-
-<view>{{condition ? "true" : "false"}}</view>
-<view>{{3+5}}</view>
-<view>{{"hello " + name}}</view>
-
-<template name='x'>
-  <view>{{a}}</view>
-  <view>{{b}}</view>
-</template>
-<template is='x' data='{{...obj1, a:11}}'></template>
-
-<view wx:for='{{arr}}' wx:key='{{i}}' wx:for-index='i' wx:for-item='product'>{{i}}：{{product}}</view>
-
-<view wx:for='{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}' wx:for-item='i'>
-  <view style='display:inline-block;width:50px;' wx:for='{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}' wx:for-item='j'>
-    <view wx:if='{{j<=i}}'>
-      {{i}}*{{j}}={{i*j}}
+<view id='outter'>
+  outter view
+  <view id='middle' bindtap='middleTap'>
+    middle view
+    <view id='inner' bindtap='innerTap'>
+      inner view
     </view>
   </view>
 </view>
-
