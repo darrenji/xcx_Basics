@@ -1,10 +1,11 @@
 {
   "pages":[    
+    "pages/module/module",
     "pages/index/index",
     "pages/logs/logs",
     "pages/test/test",
-    "pages/navi/navi",
-    "pages/module/module"
+    "pages/navi/navi"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",
