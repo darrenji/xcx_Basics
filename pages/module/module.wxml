@@ -1,4 +1,4 @@
-<scroll-view class='wrap' scroll-y="true" bindscrolltoupper="scrolltoupper" bindscrolltolower="scrolltolower">
+<scroll-view class='wrap' scroll-y="true" bindscrolltoupper="scrolltoupper" upper-threshold="100" bindscrolltolower="scrolltolower">
   <view class='a'>a</view>
   <view class='b'>b</view>
   <view class='c'>c</view>
