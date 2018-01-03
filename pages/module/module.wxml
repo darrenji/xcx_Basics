@@ -1,4 +1,4 @@
-<swiper indicator-dots='true' autoplay='true'>
+<swiper indicator-dots='true' autoplay='true' interval="2000">
   <swiper-item wx:for="{{imgUrls}}">
     <image src="{{item}}" width="555" height="250" />
   </swiper-item> 
