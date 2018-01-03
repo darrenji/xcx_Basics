@@ -8,6 +8,11 @@
   </view>
 
   <view>
+    <view>input</view>
+    <input name="input" placeholder='please input here' />
+  </view>
+
+  <view>
     <button form-type='submit'>Submit</button>
     <button form-type='reset'>Reset</button>
   </view>
