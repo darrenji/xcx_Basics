@@ -6,5 +6,8 @@ Page({
   },
   scrolltolower: function(e){
     console.log('触发了toLower');
+  },
+  scroll: function(e){
+    console.log(e);
   }
 })
