@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/test/test",
-    "pages/navi/navi"
+    "pages/navi/navi",
+    "pages/module/module"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -31,7 +32,7 @@
       {
         "selectedIconPath": "images/smile_selected.png",
         "iconPath": "images/smile.png",
-        "pagePath": "pages/test/test",
+        "pagePath": "pages/module/module",
         "text": "测试"
       }
     ]
