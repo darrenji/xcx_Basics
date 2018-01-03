@@ -1,5 +1,5 @@
-<swiper>
+<swiper indicator-dots='true'>
   <swiper-item wx:for="{{imgUrls}}">
-    <image src="{{item}}" width="455" height="250" />
+    <image src="{{item}}" width="555" height="250" />
   </swiper-item> 
 </swiper> 
