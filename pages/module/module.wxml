@@ -1,5 +1,6 @@
-<radio-group bindchange="radioChange">
-  <label wx:for="{{items}}">
-    <radio value='{{item.name}}' checked='{{item.checked}}' />{{item.value}}
-  </label>
-</radio-group>
+<view>
+  <text>设置step</text>
+  <view>
+    <slider step='5' bindchange='stepChange'></slider>
+  </view>
+</view>

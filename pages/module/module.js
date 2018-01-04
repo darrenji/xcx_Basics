@@ -1,19 +1,3 @@
-const date = new Date();
-const years = [];
-const months = [];
-const days = [];
-
-for(let i = 1999; i <= date.getFullYear(); i++){
-  years.push(i);
-}
-
-for(let i =1; i<=12;i++){
-  months.push(i);
-}
-
-for(let i=1;i<=31;i++){
-  days.push(i);
-}
 
 Page({
 
@@ -21,14 +5,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-    items:[
-      {name: 'USA', value: '美国'},
-      {name: 'CHN', value: '中国', checked: 'true'},
-      {name: 'BRA', value: '巴西'}
-    ]
+
   },
-  radioChange:function(e){
-    console.log("当前选中值", e.detail.value);
+  stepChange: function(e){
+    console.log(e.detail.value);
   },
   /**
    * 生命周期函数--监听页面加载
