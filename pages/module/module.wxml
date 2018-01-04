@@ -5,3 +5,7 @@
 <view>
   <textarea placeholder='hello' placeholder-style='color:red;'></textarea>
 </view>
+
+<view>
+  <textarea placeholder='auto focus' auto-focus></textarea>
+</view>
