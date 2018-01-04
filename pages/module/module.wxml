@@ -1,3 +1,7 @@
 <view>
   <textarea bindblur='bindTextAreaBlur' auto-height placeholder='自动变高'></textarea>
 </view>
+
+<view>
+  <textarea placeholder='hello' placeholder-style='color:red;'></textarea>
+</view>
