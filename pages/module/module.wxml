@@ -22,3 +22,10 @@
     <view>当前时间：{{time}}</view>
   </picker>
 </view>
+
+<view>
+  <view>日期选择</view>
+  <picker mode="date" value='{{date}}' start="2017-09-01" end="2018.12.30" bindchange='dateChange'>
+    <view>当前选择：{{date}}</view>
+  </picker>
+</view>

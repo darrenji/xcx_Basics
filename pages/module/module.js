@@ -8,7 +8,8 @@ Page({
     index: 0,
     multiArray: [['无脊柱动物', '脊柱动物'], ['扁性动物', '线形动物', '环节动物', '软体动物', '节肢动物'], ['猪肉绦虫', '吸血虫']],
     cascadeIndex: [0, 0, 0],
-    time: '12:01'
+    time: '12:01',
+    date: '2017-03-10'
   },
   singlePick: function(e){
     console.log('当前选中的值是', e.detail.value);
@@ -95,6 +96,11 @@ Page({
   timeChange: function(e){
     this.setData({
       time: e.detail.value
+    });
+  },
+  dateChange: function(e){
+    this.setData({
+      date: e.detail.value
     });
   },
   /**
