@@ -29,3 +29,7 @@
 <view>
   <input type='digit' />
 </view>
+
+<view>
+  <input type='idcard' />
+</view>
