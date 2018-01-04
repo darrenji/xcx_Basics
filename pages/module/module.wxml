@@ -1,39 +1,8 @@
 <view>
-  <input placeholder='自动聚焦了' auto-focus />
-</view>
-
-<view>
-  <input focus='{{focus}}'/>
-  <view>
-    <button bindtap='letGetFocus'>让上面的输入框获得焦点</button>
-  </view>
-</view>
-
-<view>
-  <input maxlength='5'/>
-</view>
-
-<view>
-  <view>输入的值是：{{inputValue}}</view>
-  <input bindinput='getInputValue' />
-</view>
-
-<view>
-  <input type='number' password />
-</view>
-
-<view>
-  <input type='text' password />
-</view>
-
-<view>
-  <input type='digit' />
-</view>
-
-<view>
-  <input type='idcard' />
-</view>
-
-<view>
-  <input placeholder-style='color:red' placeholder='red placeholder' />
+  <view>普通选择器</view>
+  <picker bindchange='singlePick' value='{{index}}' range='{{array}}'>
+    <view>
+      当前选择是：{{array[index]}}
+    </view>
+  </picker>
 </view>

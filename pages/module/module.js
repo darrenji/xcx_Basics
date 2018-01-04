@@ -4,18 +4,13 @@ Page({
    * 页面的初始数据
    */
   data: {
-    focus: false,
-    inputValue: ''
+    array: ['美国', '中国', '巴西'],
+    index: 0
   },
-  
-  letGetFocus: function(){
+  singlePick: function(e){
+    console.log('当前选中的值是', e.detail.value);
     this.setData({
-      focus: true
-    });
-  },
-  getInputValue: function(e){
-    this.setData({
-      inputValue: e.detail.value
+      index: e.detail.value
     });
   },
 
