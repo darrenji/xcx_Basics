@@ -9,7 +9,9 @@ Page({
     multiArray: [['无脊柱动物', '脊柱动物'], ['扁性动物', '线形动物', '环节动物', '软体动物', '节肢动物'], ['猪肉绦虫', '吸血虫']],
     cascadeIndex: [0, 0, 0],
     time: '12:01',
-    date: '2017-03-10'
+    date: '2017-03-10',
+    region: ['广东省', '广州市', '海珠区'],
+    customItem: '全部'
   },
   singlePick: function(e){
     console.log('当前选中的值是', e.detail.value);
@@ -101,6 +103,11 @@ Page({
   dateChange: function(e){
     this.setData({
       date: e.detail.value
+    });
+  },
+  regionChange: function(e){
+    this.setData({
+      region: e.detail.value
     });
   },
   /**
