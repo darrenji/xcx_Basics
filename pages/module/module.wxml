@@ -25,3 +25,7 @@
 <view>
   <input type='text' password />
 </view>
+
+<view>
+  <input type='digit' />
+</view>
