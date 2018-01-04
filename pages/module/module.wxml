@@ -1,22 +1,3 @@
 <view>
-  <text>设置step</text>
-  <view>
-    <slider step='5' bindchange='stepChange'></slider>
-  </view>
-</view>
-
-
-<view>
-  <text>显示当前value</text>
-  <view>
-    <slider show-value />
-  </view>
-</view>
-
-<view>
-  <text>设置最大值、最小值</text>
-  <view>
-    <slider min='50' max='200' show-value />
-  </view>
-
+  <switch checked />
 </view>
