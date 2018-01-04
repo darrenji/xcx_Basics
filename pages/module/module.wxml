@@ -12,3 +12,11 @@
     <slider show-value />
   </view>
 </view>
+
+<view>
+  <text>设置最大值、最小值</text>
+  <view>
+    <slider min='50' max='200' show-value />
+  </view>
+
+</view>
