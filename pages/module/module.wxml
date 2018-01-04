@@ -4,3 +4,11 @@
     <slider step='5' bindchange='stepChange'></slider>
   </view>
 </view>
+
+
+<view>
+  <text>显示当前value</text>
+  <view>
+    <slider show-value />
+  </view>
+</view>
