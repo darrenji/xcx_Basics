@@ -33,3 +33,7 @@
 <view>
   <input type='idcard' />
 </view>
+
+<view>
+  <input placeholder-style='color:red' placeholder='red placeholder' />
+</view>
