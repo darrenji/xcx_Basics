@@ -1,8 +1,17 @@
 <view>
-  <view>普通选择器</view>
+  <view>单选</view>
   <picker bindchange='singlePick' value='{{index}}' range='{{array}}'>
     <view>
       当前选择是：{{array[index]}}
+    </view>
+  </picker>
+</view>
+
+<view>
+  <view>级联选择</view>
+  <picker mode="multiSelector" bindchange='cascadeSelect' bindcolumnchange='columnChange' value='{{cascadeIndex}}' range='{{multiArray}}'>
+    <view>
+      当前选择：{{multiArray[0][cascadeIndex[0]]}},{{multiArray[1][cascadeIndex[1]]}}, {{multiArray[2][cascadeIndex[2]]}}
     </view>
   </picker>
 </view>
